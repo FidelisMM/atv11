@@ -204,20 +204,29 @@ public class Interface extends javax.swing.JFrame {
         // TODO add your handling code here:
         int n = JOptionPane.showConfirmDialog(null, "Você está atualizando os seus dados, tem certeza?", "Atualizar os dados", JOptionPane.YES_NO_OPTION);
         if (n == 0) {
-            new Interface2().setVisible(true);
             
+            String  aux; 
             Aluno a = new Aluno();
+            
+            if (jRBMasc.isSelected()){
+                aux = "Masculino";
+            } else if (jRBFem.isSelected()){
+                aux = "Feminino";
+            } else {
+                aux = "Nada foi selecionado";
+            }
             
             a.setNome(jTFNome.getText());
             a.setSobrenome(jTFSobrenome.getText());
             a.setNascimento(jFTData.getText());
-//            a.setSexo(buttonGroup1.get());
+            a.setSexo(aux);
             a.setRGM(jFTRGM.getText());
-//            a.setCurso(jComboBox1.get());
+            a.setCurso(jComboBox1.getSelectedItem().toString());
             
             Interface2 i = new Interface2();
             
             i.exibir(a);
+            i.setVisible(true);
         } else {
         
         }

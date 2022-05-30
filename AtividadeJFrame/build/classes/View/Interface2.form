@@ -79,7 +79,7 @@
                   <Component id="jLabelRGM1" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabelCurso1" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="215" max="32767" attributes="0"/>
+              <EmptySpace pref="173" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -134,16 +134,34 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabelNome1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="oi"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabelSobrenome1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="oi"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabelData1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="oi"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabelSexo1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="oi"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabelRGM1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="oi"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabelCurso1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="oi"/>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>
